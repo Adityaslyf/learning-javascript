@@ -237,21 +237,57 @@ a =a+1;
 
 
 
-// for (var a = 1; a <= 100; a = a + 10) {
+//  for (var a = 1; a <= 100; a = a + 10) {
 
 //     for (var b = a; b < a + 10; b++) {
-//         document.write(b);
-//     }
+//          document.write(b );
+//      }
 // document.write("<br>");
+//  }
+
+
+//  for (var a = 1; a<=9; a++){
+// for (var b=1; b<=a; b++){
+//     document.write(b);
+// } document.write("<br>");
+//  }
+
+
+// for (var a = 5; a >= 1; a--) {
+//     for (var b = 1; b <= a; b++) {
+//         document.write(a);
+//     } document.write("<br>");
 // }
 
+// var ary =[10,20,30];
+// var sum = 0;
+// document.write("<ul>");
+// for (var a=0; a<=2; a++){
+//     document.write("<li>" + ary[a] +"</li>");
+// sum =sum +ary[a];
+// }
+// document.write("</ul>");
+// document.write("Total Sum :" + sum);
 
 
 
+  
+// var ary =[
+
+//     ["Harry",18,"Male","B.com"],
+//     ["Harry",18,"Male","B.com"],
+//     ["Harry",18,"Male","B.com"],
 
 
-
-
-
-
+// ]; document.write("<table border ='1px' cellspacing='0'");
+// for (var a =0; a<3; a++){
+//     document.write("<tr>");
+//     for (var b =0; b<4; b++){
+       
+//         document.write("<td>"+ ary[a][b]+ "</td>");
+//     }
+//         document.write("</tr>");  
+       
+    
+// } document.write("</table>");
 
