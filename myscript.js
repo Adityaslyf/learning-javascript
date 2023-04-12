@@ -291,3 +291,73 @@ a =a+1;
     
 // } document.write("</table>");
 
+
+
+
+// var a = ["harry",12,"shuamam"];
+
+// a [0] ="soman";
+
+// delete a[1]; 
+// document.write(a);
+
+
+
+// var a = ["harry",12,"shuamam"];
+// a.sort();
+
+// // document.write(a);
+// a.reverse();
+// document.write(a);
+//push and pull
+
+
+//shift and unshift
+
+
+//concate and join
+
+
+// var a = ["sanjay", "kohli", "player"];
+// document.write(a +"<br><br>");
+// var b =a.slice(1,2);
+// document.write(b +"<br><br>");
+
+
+
+// var a = ["sanjay", "kohli", "player"];
+// document.write(a +"<br><br>");
+  
+// // a.splice(2,0,"aditya",);
+
+// // document.write(a +"<br><br>");
+
+// a.splice(2,1,"aditya");
+// document.write(a +"<br><br>");
+
+
+
+//  var a =["sanjay","aditya","priyanka","aditya","shivam"];
+//  document.write(a +"<br><br>");
+//  var b = a.lastIndexOf("aditya");
+//  document.write(b);
+
+
+
+// includes
+
+
+
+// some function  
+// var ages = [10,5,6,18];
+// document.write(ages + "<br><br>");
+
+
+// var b = ages.some(checkAdult);
+// document.write(b + "<br><br>");
+
+// function checkAdult (age){
+//     return age >= 18;
+// }
+
+
