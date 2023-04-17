@@ -361,3 +361,53 @@ a =a+1;
 // }
 
 
+
+// find and findindex
+// var ages = [10,5,6,18];
+// document.write(ages + "<br><br>");
+
+// var b = ages.find(checkAdult);
+// document.write(b +"<br><br>");
+
+// function checkAdult(age){
+// return age >= 18;
+// }
+
+
+
+// filter
+
+
+
+//tostring  
+
+
+//forEach
+
+
+// var tweet = prompt("hello dalo");
+
+// alert("you have written" + tweet.length );
+
+
+function getMilk(bottle) {   
+    console.log("leaveHouse");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveLeft");
+    console.log(bottle);
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("enterHouse");
+  } 
+  getbottle(15);
