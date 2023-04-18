@@ -390,24 +390,41 @@ a =a+1;
 // alert("you have written" + tweet.length );
 
 
-function getMilk(bottle) {   
-    console.log("leaveHouse");
-    console.log("moveRight");
-    console.log("moveRight");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveRight");
-    console.log("moveRight");
-    console.log("moveLeft");
-    console.log(bottle);
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveLeft");
-    console.log("moveLeft");
-    console.log("enterHouse");
-  } 
-  getbottle(15);
+// function getMilk(bottle) {   
+// document.write("leaveHouse");
+// document.write("moveRight");
+// document.write("moveRight");
+// document.write("moveUp");
+// document.write("moveUp");
+// document.write("moveUp");
+// document.write("moveUp");
+// document.write("moveRight");
+// document.write("moveRight");
+// document.write("moveLeft");
+// document.write(bottle);
+// document.write("moveDown");
+// document.write("moveDown");
+// document.write("moveDown");
+// document.write("moveDown");
+// document.write("moveLeft");
+// document.write("moveLeft");
+// document.write("enterHouse");
+// } 
+//   getMilk(15)
+
+
+
+// function myFunction(p1, p2) {
+//     return p1 * p2;
+//   }
+//   (4, 3);
+
+
+function bmicalculator(weight,height){
+var bmi = weight/(height*height);
+return bmi;
+
+
+} 
+var bmi = bmicalculator(65,2);
+console.log(bmicalculator);
