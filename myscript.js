@@ -420,11 +420,112 @@ a =a+1;
 //   (4, 3);
 
 
-function bmicalculator(weight,height){
-var bmi = weight/(height*height);
-return bmi;
+// function bmicalculator(weight,height){
+// var bmi = weight / (height*height);
+// return bmi;
 
 
+// } 
+// var bmi = bmicalculator(65,3);
+// document.write(bmi);
+  
+// var n = Math.random();
+// n = n*7;
+// n = Math.floor(n);
+// console.log(n);
+
+// prompt("Your name");
+// prompt("your partner name");
+// // function lovecalculator(){
+// var n = Math.random(n);
+//  n = n * 100;
+//  n = Math.floor(n) + 1;
+//  alert("shadi ke chances " +n +"%");
+//  if (n>80){
+//     alert("you are made for each other muaahh");
+//  } else{
+//     alert("you are gay");
+//  }
+// } lovecalculator(n);
+
+
+// function bmiCalculator (weight, height) {
+//     var bmi = weight/(height*height);
+//      if (bmi <18.5){
+//          document.write("Your BMI is " + bmi  + ","+ " so you are underweight" + "<br>")
+//      } else{
+//         document.write("huehue");
+//      } return bmi;
+//     }
+    
+
+// let c=0;
+// c=
+// var bmi = bmiCalculator(62,4);
+// document.write(bmi);
+
+
+// function leapyear(year){
+//     var onestcondition = year % 4;
+//    if(onestcondition === 0){
+//    document.write("leap yr");
+//      } else{
+//      document.write("no a leap year");}
+//      return onestcondition;
+//  };
+//  leapyear(2000)
+//  document.write(hue);
+
+
+// var output = [1,2,3,4,5,6];
+ 
+// function fizzbuzz(){
+//     for( let i=0; i<output.length; i++ ){
+//         if (output[i] % 3 == 0){
+//             document.write("fizz");
+    
+//          }else{
+//              document.write("output");
+//          return(output);
+//         }
+//     }
+// }
+
+// fizzbuzz();
+// //  } var fizzbuzz = output(0);
+// //  document.write(fizzbuzz);
+
+
+// // var output = [1,2,3,4,5,6];
+// // function fizzbuzz(){
+// //     if 
+// // }
+
+
+// function bmiCalculator (weight, height) {
+//     var bmi = weight/(height*height);
+//     if (bmi<18.5){
+//         document.write("Your BMI is" + bmi +","+ "so you are underweight.");
+//     } if (bmi>=18.5 && bmi<=24.9 ) {
+//         document.write("Your BMI is" + bmi +"," + "so you have a normal weight.");
+//     } if (bmi>24.9 ) {
+//         document.write("Your BMI is" + bmi +"," + "so you are overweight.");
+//     }
+    
+//     return interpretation;
+// } bmiCalculator(62,4);
+// document.write(bmiCalculator);
+
+function bmiCalculator (weight, height) {
+    var bmi = weight/(height*height);
+    if (bmi<18.5){
+        document.write("Your BMI is " + bmi +"," + "so you are underweight.");
+    } if (bmi>=18.5 && bmi<=24.9 ) {
+        document.write("Your BMI is " + bmi + "," + "so you have a normal weight.");
+    } if (bmi>24.9 ) {
+        document.write("Your BMI is " + bmi + "," + "so you are overweight.");
+    }
+    return bmi;
 } 
-var bmi = bmicalculator(65,2);
-console.log(bmicalculator);
+
+bmiCalculator(45,10);
