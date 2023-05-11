@@ -531,13 +531,12 @@ a =a+1;
 // bmiCalculator(45,10)
 
 
-// var names = ["Angela", "Ben" ,"Jenny" ,"Michael" ,"Chloe"]
-// var semx = ["huehue","dogelina","chimtu","dogesh","Angela","vimdhayak"]
-//     function code(){
-//         var hue = Math.floor(Math.random() * names.length);
-//         var hues = Math.floor(Math.random() * semx.length);
-//        names[hue] === semx[hues] ? console.log(`${names[hue]}  is going to buy lunch today`): console.log(`${names[hue]} and ${names[hues]} is going to buy lunch today`)
-// }
-// code();
+var names = ["Angela", "Ben" ,"Jenny" ,"Michael" ,"Chloe"]
+var semx = ["huehue","dogelina","chimtu","dogesh","Angela","vimdhayak"]     function code(){
+       var hue = Math.floor(Math.random() * names.length);
+       var hues = Math.floor(Math.random() * semx.length);
+      names[hue] === se[hues] ? console.log(`${names[hue]}  is going to buy lunch today`): console.log(`${names[hue]} and ${names[hues]} is going to buy lunch today`)
+}
+ code();
     
 
